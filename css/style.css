@@ -197,14 +197,13 @@ nav{
     cursor: pointer;
     background-color: rgba(0,0,0,0.1);
     color: white;
+    transition: all .5s ease;
 }
 .button1:hover{
     background-color: rgba(0,0,0,.3);
-    transition: .5s;
 }
 .button2:hover{
     background-color: rgba(0,0,0,.3);
-    transition: .5s;
 }
 .button2{
     display: flex;
@@ -217,10 +216,11 @@ nav{
     cursor: pointer;
     background-color: rgba(0,0,0,0.1);
     color: white;
+    transition: all .5s ease;
 }
 .arrow-left{
     width: 2.5vw;
-    height: 5vh;
+    height: 2.5vw;
     border-top: 20px solid rgba(255, 255, 255, .5);
     border-left: 20px solid rgba(255, 255, 255,.5);
     transform: rotate(-45deg);
@@ -228,7 +228,7 @@ nav{
 }
 .arrow-right{
     width: 2.5vw;
-    height: 5vh;
+    height: 2.5vw;
     border-top: 20px solid rgba(255, 255, 255, .5);
     border-right: 20px solid rgba(255, 255, 255,.5);
     transform: rotate(45deg);
@@ -249,12 +249,106 @@ nav{
     justify-content: center;
 }
 .content2{
-    height: 90vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+}
+.content2-header{
+    height: 15vh;
+    width: 85vw;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .5vw;
+    Font-weight: Bold;
+    Font-Size: 4.6vw;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    background: linear-gradient(45deg, rgba(0,4,79,1) 0%, rgba(123,13,186,1) 35%, rgba(129,43,45,1) 81%);
+	background-size: 250%;
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  	animation: gradient 8s ease infinite;
+}
+.content2-body{
+    height: 55vh;
     width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.content2-body-box{
+    background: #f2f2f2;
+    border-radius: 3%;
+    width: 22vw;
+    height: 21vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 25px 40px 0px rgba(0,0,0,0.4);
+    transform: translateY(5px);
+    transition: all .2s ease;
+}
+.content2-body-box:hover{
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    transform: translateY(0px);
+}
+.content2-body-box-quote{
+    width: 18vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    Font-Size: 1vw;
+}
+.content2-body-box-name{
+    width: 20vw;
+    height: 5vw;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content2-body-box-logo{
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.content2-body-box-subname{
+    width: 11vw;
+    height: 5vw;
+    border: 0px solid black;
+}
+.content2-body-box-subname1{
+    width: 11vw;
+    height: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    Font-Size: 1.2vw;
+    font-weight: 800;
+}
+.content2-body-box-subname2{
+    width: 11vw;
+    height: 2.4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    Font-Size: 1.1vw;
 }
 .content1-header-wrap{
     width: 85vw;
@@ -279,7 +373,7 @@ nav{
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-  	animation: gradient 10s ease infinite;
+  	animation: gradient 8s ease infinite;
 }
 .content1-content-wrap{
     width: 85vw;
@@ -323,8 +417,8 @@ nav{
 }
 .content1-button{
     border: 2px solid black;
-    width: 100%;
-    height: 100%;
+    width: 15vw;
+    height: 4vw;
     position:relative;
     display: flex;
     flex-direction: row;
@@ -364,6 +458,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .6s all ease;
 }
 .content1-button-right{
     border: 0px solid black;
@@ -379,32 +474,29 @@ a{
     transition:all .6s ease;
   }
 .box1:hover .content1-button-arrow{
-    border-top: 5px solid rgba(255, 255, 255, 1);
-    border-right: 5px solid rgba(255, 255, 255,1);
+    border-top: .3vw solid rgba(255, 255, 255, 1);
+    border-right: .3vw solid rgba(255, 255, 255,1);
     transform: translateX(10px)rotate(45deg);
-    transition: .6s all ease;
   }
 .content1-button-arrow{
     width: 1vw;
     height: 1vw;
-    border-top: 5px solid rgba(0, 0, 0, 1);
-    border-right: 5px solid rgba(0, 0, 0,1);
+    border-top: .3vw solid rgba(0, 0, 0, 1);
+    border-right: .3vw solid rgba(0, 0, 0,1);
     transform: rotate(45deg);
     margin-top: .2vw;
     margin-right: 5vw;
+    transition: .6s all ease;
 }
-.content2-image{
-    border:0px solid red;
-    width: 22vw;
-    height: 52vh;
-    background-color: #3a3089;
-}
+
 /*footer*/
 .footer-whole-wrap{
     width: 100%;
     height: 80vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     box-shadow: inset 1px 1px 40px black;
@@ -416,27 +508,26 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: 1px solid red;
-    transform: scale(1);
 }
 .footer-wrap{
-    width: 35%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 .footer-wrap2{
-    width: 65%;
-    height: 100%;
+    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .footer-header{
     width: 100%;
-    height: 25%;
+    height: 20vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: flex-end;
     font-family: 'Teko', sans-serif;
     line-height: 3vw;
@@ -445,8 +536,8 @@ a{
     color: white;
 }
 .social-icons{
-    width: 100%;
-    height: 70%;
+    height: 40vh;
+    width: 50vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -454,101 +545,101 @@ a{
 }
 .chair{
     position: absolute;
-    width: 240px;
-    height: 250px;
+    width: 12vw;
+    height: 12.5vw;
     border-radius: 10%;
-    transform: skew(9deg, 0deg)translate(35px, -100px);
+    transform: skew(9deg, 0deg)translate(2vw, -4.8vw);
     background: #272727;
-    box-shadow: inset 20px 15px #363636;
+    box-shadow: inset 1vw 1vw #363636;
 }
 .table1{
     position: absolute;
-    width: 820px;
-    height: 36px;
-    border-top: 4px solid #8d482d;
+    width: 43vw;
+    height: 1.8vw;
+    border-top: .25vw solid #8d482d;
     background: #63321f;
     border-radius: 5%;
-    transform: translate(-30px,-100px);
+    transform: translate(-1.6vw,-5.25vw);
 }
 .table2{
     position: absolute;
-    width: 780px;
-    height: 95px;
-    border-top: 8px solid #3d1f13;
+    width: 41vw;
+    height: 5vw;
+    border-top: .4vw solid #3d1f13;
     background: #63321f;
-    transform: translateX(-30px);
+    transform: translateX(-1.6vw);
 }
 .cup{
     position: absolute;
-    width: 40px;
-    height: 60px;
+    width: 2.2vw;
+    height: 3.2vw;
     background: #A51080;
     border-left: 8px solid #810c64;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    transform: translate(280px,-137px);
+    transform: translate(14.5vw,-7.1vw);
 }
 .cup-handle{
     position: absolute;
-    width: 30px;
-    height: 40px;
+    width: 1.4vw;
+    height: 2vw;
     border: 5px solid #A51080;
     border-radius: 50%;
-    transform: translate(300px,-140px);
+    transform: translate(15.86vw,-7.3vw);
 }
 .laptop-footer{
     position: absolute;
-    width: 170px;
-    height: 120px;
+    width: 8.5vw;
+    height: 6vw;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    transform: skew(-9deg, 0deg)translate(400px, -139px);
+    transform: skew(-9deg, 0deg)translate(20.8vw, -7.2vw);
     background: #C0C0C0;
-    box-shadow: inset 5px 5px #141414;
+    box-shadow: inset .35vw .3vw #141414;
 }
 .laptop-body-footer{
     position: absolute;
-    width: 50px;
-    height: 10px;
+    width: 2.6vw;
+    height: .5vw;
     border-top-left-radius: 30%;
     background: #141414;
-    transform: skew(-9deg, 0deg)translate(345px, -138px);
+    transform: skew(-9deg, 0deg)translate(18vw, -7.2vw);
 }
 .smoke{
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 1.4vw;
+    height: 1.4vw;
     border-radius: 50%;
     background: white;
-    transform: translate(284px,-150px);
+    transform: translate(15.3vw,-7.4vw);
     animation: smoke 3s infinite;
 }
 .smoke2{
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: .6vw;
+    height: .6vw;
     border-radius: 50%;
     background: white;
-    transform: translate(290px,-150px);
+    transform: translate(15vw,-8vw);
     animation: smoke 3s infinite;
     animation-delay: 1s;
 }
 .smoke3{
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 1vw;
+    height: 1vw;
     border-radius: 50%;
     background: white;
-    transform: translate(298px,-150px);
+    transform: translate(14.8vw,-8vw);
     animation: smoke 3s infinite;
     animation-delay: 2s;
 }
 .logo-facebook-large {
+    position: absolute;
     cursor: pointer;
     background-color: #3b579d;
-    width: 300px;
-    height: 300px;
-    position: relative;
+    width: 15vw;
+    height: 15vw;
     overflow: hidden;
     border-radius: 5%;
     box-shadow: 0px 0px 38px -6px rgba(0,0,0,0.75);
@@ -563,34 +654,34 @@ a{
     background-color: #3b579d;
 }
 .logo-facebook-large .longpiece {
-    height: 260px;
-    border: 47px #ffffff solid;
-    border-radius: 55px 0 0 0;
-    left: 160px;
-    top: 45px;
+    height: 20vw;
+    border: 2.5vw #ffffff solid;
+    border-radius: 3vw 0 0 0;
+    left: 8.3vw;
+    top: 2.3vw;
 }
 .logo-facebook-large .longpiece-none {
-    width: 55px;
-    height: 230px;
-    border-radius: 21px 0 0 0;
-    left: 206px;
-    top: 87px;
+    width: 3vw;
+    height: 11vw;
+    border-radius: 1vw 0 0 0;
+    left: 11vw;
+    top: 5vw;
 }
 .logo-facebook-large .shortpiece {
-    width: 130px;
-    height: 43px;
-    left: 121px;
-    top: 140px;
+    width: 7vw;
+    height: 2.5vw;
+    left: 6.2vw;
+    top: 7.5vw;
 }
 .logo-twitter-large {
-    cursor: pointer;
     position: absolute;
+    cursor: pointer;
     background-color: #00aced;
-    width: 300px;
-    height: 300px;
+    width: 15vw;
+    height: 15vw;
     overflow: hidden;
     border-radius: 5%;
-    transform:scale(.5)translateX(550px);
+    transform:scale(.5);
     box-shadow: 0px 0px 38px -6px rgba(0,0,0,0.75);
     animation: float2 2s infinite;
 }
@@ -603,92 +694,92 @@ a{
     background-color: #00aced;
 }
 .logo-twitter-large .body {
-    top: 16px;
-    left: 15px;
-    width: 206px;
-    height: 206px;
+    top: 1.5vw;
+    left: 1.2vw;
+    width: 10.5vw;
+    height: 10.5vw;
 }
 .logo-twitter-large .body-none {
-    top: 56px;
-    left: -6px;
-    width: 150px;
-    height: 150px;
+    top: 3vw;
+    left: -.8vw;
+    width: 8vw;
+    height: 8vw;
 }
 .logo-twitter-large .wing-top {
-    top: 65px;
-    left: 68px;
-    width: 88px;
-    height: 77px;
+    top: 3.5vw;
+    left: 3.5vw;
+    width: 4.5vw;
+    height: 4vw;
 }
 .logo-twitter-large .wing-top-none {
-    top: -77px;
-    left: 53px;
-    width: 200px;
-    height: 200px;
+    top: -4vw;
+    left: 3vw;
+    width: 10vw;
+    height: 10vw;
 }
 .logo-twitter-large .wing-middle {
-    top: 95px;
-    left: 68px;
-    width: 88px;
-    height: 73px;
+    top: 5vw;
+    left: 3.5vw;
+    width: 4.5vw;
+    height: 3.5vw;
 }
 .logo-twitter-large .wing-middle-none {
-    top: -25px;
-    left: 20px;
-    width: 160px;
-    height: 160px;
+    top: -1.5vw;
+    left: 1vw;
+    width: 7vw;
+    height: 8.5vw;
 }
 .logo-twitter-large .wing-bottom {
-    top: 121px;
-    left: 80px;
-    width: 70px;
-    height: 70px;
+    top: 8vw;
+    left: 4.5vw;
+    width: 6vw;
+    height: 1.5vw;
 }
 .logo-twitter-large .wing-bottom-none {
-    top: 106px;
-    left: 58px;
-    width: 60px;
-    height: 60px;
+    top: 8vw;
+    left: 40vw;
+    width: 7vw;
+    height: 7vw;
 }
 .logo-twitter-large .beak-bottom {
-    width: 100px;
-    height: 100px;
-    left: 145px;
-    top: 21px;
+    width: 5vw;
+    height: 5.5vw;
+    left: 7.5vw;
+    top: 1vw;
 }
 .logo-twitter-large .beak-bottom-none {
-    width: 115px;
-    height: 115px;
-    left: 155px;
-    top: -14px;
+    width: 5vw;
+    height: 6.2vw;
+    left: 8vw;
+    top: -.5vw;
 }
 .logo-twitter-large .beak-top {
-    width: 65px;
-    height: 65px;
-    left: 170px;
-    top: 39px;
+    width: 3vw;
+    height: 4vw;
+    left: 9vw;
+    top: 2vw;
 }
 .logo-twitter-large .beak-top-none {
-    width: 115px;
-    height: 115px;
-    left: 144px;
-    top: -25px;
+    width: 6vw;
+    height: 6vw;
+    left: 7.5vw;
+    top: -1.5vw;
 }
 .logo-twitter-large .head {
-    width: 72px;
-    height: 72px;
-    left: 148px;
-    top: 78px;
+    width: 4vw;
+    height: 4vw;
+    left: 7.5vw;
+    top: 4vw;
 }
 .logo-linkedin-large {
+    position: absolute;
     cursor: pointer;
     background-color: #007bb6;
-    width: 300px;
-    height: 300px;
-    position: absolute;
+    width: 15vw;
+    height: 15vw;
     overflow: hidden;
     border-radius: 5%;
-    transform:scale(.5)translateX(1100px);
+    transform:scale(.5);
     box-shadow: 0px 0px 38px -6px rgba(0,0,0,0.75);
     animation: float 2s infinite;
 }
@@ -701,43 +792,43 @@ a{
 }
 .logo-linkedin-large .i-dot {
     border-radius: 100%;
-    width: 43px;
-    height: 43px;
-    left: 59px;
-    top: 60px;
+    width: 2.2vw;
+    height: 2.2vw;
+    left: 3.1vw;
+    top: 3.5vw;
 }
 .logo-linkedin-large .i-body {
-    width: 37px;
-    height: 118px;
-    left: 62px;
-    top: 119px;
+    width: 2vw;
+    height: 6.2vw;
+    left: 3.25vw;
+    top: 6.15vw;
 }
 .logo-linkedin-large .n-body {
-    width: 36px;
-    height: 118px;
-    left: 122px;
-    top: 119px;
+    width: 2vw;
+    height: 6.2vw;
+    left: 6.5vw;
+    top: 6.15vw;
 }
 .logo-linkedin-large .n-curve {
-    border-radius: 36px 42px 0 0;
-    width: 84px;
-    height: 121px;
-    left: 154px;
-    top: 116px;
+    border-radius: 2vw 2.2vw 0 0;
+    width: 4vw;
+    height: 6.2vw;
+    left: 8.2vw;
+    top: 6.15vw;
 }
 .logo-linkedin-large .n-curve-none {
-    border-radius: 31px 23px 0 0;
-    width: 41px;
-    height: 95px;
-    left: 159px;
-    top: 148px;
+    border-radius: 2vw 1.4vw 0 0;
+    width: 2.2vw;
+    height: 5vw;
+    left: 8.4vw;
+    top: 8vw;
 }
 @keyframes smoke{
     65%{
-        transform: translate(295px,-210px);
+        transform: translate(15.2vw,-11vw);
     }
     100%{
-        transform: translate(295px,-210px);
+        transform: translate(15.2vw,-11vw);
         background: transparent;
     }
 }
@@ -754,24 +845,24 @@ a{
 }
 @keyframes float{
     0%{
-        transform:scale(.5)translate(1100px,30px);
+        transform:scale(.5)translate(90vw,30px);
     }
     50%{
-        transform:scale(.5)translate(1100px,0px);
+        transform:scale(.5)translate(90vw,0px);
     }
     100%{
-        transform:scale(.5)translate(1100px,30px);
+        transform:scale(.5)translate(90vw,30px);
     }
 }
 @keyframes float2{
     0%{
-        transform:scale(.5)translate(550px,-30px);
+        transform:scale(.5)translate(45vw,-30px);
     }
     50%{
-        transform:scale(.5)translate(550px,0px);
+        transform:scale(.5)translate(45vw,0px);
     }
     100%{
-        transform:scale(.5)translate(550px,-30px);
+        transform:scale(.5)translate(45vw,-30px);
     }
 }
 @keyframes float3{
@@ -1176,7 +1267,7 @@ a{
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    transform:translateY(110px);
+    transform:translateY(115px);
 }
 .anim-circle2{
     z-index: -1;
