@@ -253,7 +253,8 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85vw;
+    width: 99.2vw;
+    background-color: #3b3b3b;
 }
 .content2-header{
     height: 15vh;
@@ -266,8 +267,8 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, rgba(0,4,79,1) 0%, rgba(123,13,186,1) 35%, rgba(129,43,45,1) 81%);
-	background-size: 250%;
+    background: linear-gradient(45deg, rgb(82, 177, 255) 0%, rgb(185, 70, 252) 35%, rgb(255, 87, 90) 81%);
+	background-size: 300%;
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -291,12 +292,12 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 25px 40px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 25px 40px 0px rgba(0, 0, 0, 0.7);
     transform: translateY(5px);
     transition: all .2s ease;
 }
 .content2-body-box:hover{
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
     transform: translateY(0px);
 }
 .content2-body-box-quote{
@@ -307,7 +308,7 @@ nav{
     justify-content: center;
     align-items: center;
     font-family: 'Hind Siliguri', sans-serif;
-    Font-Size: 1vw;
+    Font-Size: 1.1vw;
 }
 .content2-body-box-name{
     width: 20vw;
@@ -497,9 +498,9 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee5274, #a735ca, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    box-shadow: inset 1px 1px 40px black;
+    box-shadow: inset 5px 5px 40px black;
     animation: gradient 15s ease infinite;
 }
 .footer-element{
