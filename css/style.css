@@ -32,6 +32,7 @@
 }
 /*content*/
 body {
+    width: 100%;
     font-size: 16px;
     font-family: "Avenir Next", Helvetica, sans-serif;
     margin: 0;
@@ -47,7 +48,7 @@ nav{
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw;
     border: 0px solid white;
-    width: 99.1vw;
+    width: 100%;
     height: 7vh;
     display: flex;
     flex-direction: row;
@@ -127,8 +128,7 @@ nav{
 .wrap{
     border: 0px solid red;
     height: fit-content;
-    max-width: 99vw;
-    width: 99.2vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,7 +137,7 @@ nav{
 .hero{
     border: 0px solid black;
     height: 100vh;
-    width: 99.2vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -146,7 +146,6 @@ nav{
     box-shadow: inset 5px 5px 100px black;
 }
 .hero-left{
-
     flex:1;
     display: flex;
     flex-direction: column;
@@ -161,7 +160,6 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 .hero-right{
 
@@ -235,7 +233,7 @@ nav{
     border-radius: 10%;
 }
 .content2-wrap{
-    width: 99.2vw;
+    width: 100%;
     border: 0px solid black;
     display: flex;
     flex-direction: column;
@@ -253,7 +251,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 99.2vw;
+    width: 100%;
     background-color: #3b3b3b;
 }
 .content2-header{
