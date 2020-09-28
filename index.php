@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-mobile.css">
         <title>Learning Task 2.3</title>
     </head>
     <body class="grey">
@@ -12,13 +13,19 @@
         <nav>
             <div class="nav-parent slate-blue">
                 <div class="logo">
+                    <a href=#>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                     <div class="outer-square"></div>
                     <div class="square"></div>
-                    <div class="square1"></div>
-                    <div class="square2"></div>
-                    <div class="square3"></div>
-                    <div class="square4"></div>
-                    <div class="square5"></div>
+                  <div class="square1"></div>
+                  <div class="square2"></div>
+                  <div class="square3"></div>
+                  <div class="square4"></div>
+                  <div class="square5"></div>
+                    </a>
                 </div>
                 <div class="nav-content-wrap">
                     <div class="nav-left">
