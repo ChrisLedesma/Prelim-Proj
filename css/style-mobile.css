@@ -34,7 +34,7 @@
         transform:scale(4.4)translateY(-10px);
     }
     .hero-subheader {
-        transform: translateY(2vh);
+        transform: translateY(3vw);
         font-size: 3vw;
         color: rgb(248, 233, 233);
       }
