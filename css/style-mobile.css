@@ -35,7 +35,7 @@
     }
     .hero-subheader {
         font-size: 3vw;
-        magrin-top: 0;
+        margin-top: 0;
         transform: translateY(2vh);
         color: rgb(248, 233, 233);
       }
