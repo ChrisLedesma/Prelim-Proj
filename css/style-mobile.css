@@ -36,7 +36,7 @@
     }
     .hero-subheader {
         font-size: 3vw;
-        transform: translateY(20px);
+        transform: translateY(0.1vh);
         color: rgb(248, 233, 233);
       }
       .arrow-down{
@@ -138,8 +138,12 @@
         align-items: center;
     }
     .content2-body-box{
+        border: .15vw solid black;
         box-shadow: 0px 2vw 4vw 0px rgba(0, 0, 0, 0.7);
         transform: scale(2.8)translateY(3px);
+    }
+    .content2-body-box-logo{
+        border: .01vw solid black;
     }
     .content2-body-box:hover{
         box-shadow: 0px 0px .7vw 0px rgba(0, 0, 0, 0.8);
