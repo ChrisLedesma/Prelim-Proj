@@ -143,6 +143,8 @@
     }
     .content2-body-box-logo{
         border: .01vw solid black;
+        transform: ;
+        font-size: 1vw;
     }
     .content2-body-box:hover{
         box-shadow: 0px 0px .7vw 0px rgba(0, 0, 0, 0.8);
@@ -173,5 +175,21 @@
     }
     .social-icons{
         transform: scale(1.4);
+    }
+    .triangle2{
+        transform: translate(-.1vw,2.1vw);
+      }
+      .diamond {
+        transform: scale(.8)translateY(.5vw);
+    }
+    .diamond:after {
+      content: '';
+      position: absolute;
+      left: -2.6vw;
+      top: 1.1vw;
+      width: 0;
+      height: 0;
+      border: 2.6vw solid transparent;
+      border-top: 3.5vw solid blue;
     }
 }

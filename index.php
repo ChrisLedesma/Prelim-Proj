@@ -159,7 +159,12 @@
                                 The level of professionalism and dedication is exceptional in this industry and we are eager to strengthen our collaboration in the future.
                             </div>
                             <div class="content2-body-box-name">
-                                <div class="content2-body-box-logo"></div>
+                                <div class="content2-body-box-logo">
+                                    <div class="triangle1">
+                                        <div class="triangle2"></div>
+                                      </div>
+                                      <div>Aspire</div>
+                                </div>
                                 <div class="content2-body-box-subname">
                                     <div class="content2-body-box-subname1">Joe Mama</div>
                                     <div class="content2-body-box-subname2">Aspire</div>
@@ -170,7 +175,9 @@
                             <div class="content2-body-box-quote">What impressed me the most with Cyber Labs is their commitment and willing to go the extra mile.
                                 Cyber Labs is truly an extension of our development team. </div>
                             <div class="content2-body-box-name">
-                                <div class="content2-body-box-logo"></div>
+                                <div class="content2-body-box-logo">
+                                    <div class="diamond"></div>
+                                </div>
                                 <div class="content2-body-box-subname">
                                     <div class="content2-body-box-subname1">Mike Hawk</div>
                                     <div class="content2-body-box-subname2">Hawk Corp.</div>
@@ -181,7 +188,11 @@
                             <div class="content2-body-box-quote">With over 15 years of experience in this industry I've yet to encounter a firm that is more centered on excellence, 
                                 both in treating human beings that serve the company, and in fabricating software in service of their clients.</div>
                             <div class="content2-body-box-name">
-                                <div class="content2-body-box-logo"></div>
+                                <div class="content2-body-box-logo">
+                                    <div class="omega">
+                                        <div class="omega1"></div>
+                                    </div>
+                                </div>
                                 <div class="content2-body-box-subname">
                                     <div class="content2-body-box-subname1">Bu Wang</div>
                                     <div class="content2-body-box-subname2">OMEGA</div>
