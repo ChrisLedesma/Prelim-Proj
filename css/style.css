@@ -105,13 +105,8 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+}
 
-}
-.nav-child:hover{
-    background-color: rgb(85, 73, 167);
-    transition: .5s;
-}
 .nav-items-margin:nth-child(n):not(:last-child){
     margin-right: 16px;  
 }
@@ -200,6 +195,7 @@ nav{
     background-color: rgba(0,0,0,0.1);
     color: white;
     transition: all .5s ease;
+    display: none;
 }
 .button1:hover{
     background-color: rgba(0,0,0,.3);
@@ -219,6 +215,7 @@ nav{
     background-color: rgba(0,0,0,0.1);
     color: white;
     transition: all .5s ease;
+    display: none;
 }
 .arrow-left{
     width: 2.5vw;
@@ -452,11 +449,11 @@ nav{
 }
 .content1-button-left{
     font-family: 'Montserrat', sans-serif;
-    Font-Size: 1.6vw;
+    Font-Size: 1.2vw;
     font-weight: 800;
     border: 0px solid black;
     color: black;
-    width: 12vw;
+    width: 15vw;
     height: 8vh;
     display: flex;
     flex-direction: column;

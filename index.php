@@ -29,11 +29,10 @@
                 </div>
                 <div class="nav-content-wrap">
                     <div class="nav-left">
-                        <div class="line"></div>
                         <div class="nav-items ">
-                            <div class="nav-child nav-items-margin">Services</div>
-                            <div class="nav-child nav-items-margin">Process</div>
-                            <div class="nav-child nav-items-margin">About</div>
+                            <div class="nav-child nav-items-margin"></div>
+                            <div class="nav-child nav-items-margin"></div>
+                            <div class="nav-child nav-items-margin"></div>
                         </div>
                     </div>
                     <div class="nav-right">
@@ -139,14 +138,9 @@
                                 <div class="pc-stand2"></div>
                             </div>
                         </div>
-                        <a href="#">
                             <div class="content1-button box1"><!--content button-->
-                                <div class="content1-button-left">Learn More</div>
-                                <div class="content1-button-right">
-                                    <div class="content1-button-arrow"></div>
-                                </div>
+                                <div class="content1-button-left">Flexible Development</div>
                             </div>
-                        </a>
                     </div>
                 </div>
             </div>

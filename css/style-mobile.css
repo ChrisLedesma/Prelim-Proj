@@ -98,7 +98,7 @@
         Font-Size: 4.6vw;
     }
     .content1-button-left{
-        Font-Size: 3vw;
+        Font-Size: 2vw;
         color: black;
         width: 23vw;
         height: 8vw;
@@ -137,13 +137,11 @@
         align-items: center;
     }
     .content2-body-box{
-        border: .15vw solid black;
         box-shadow: 0px 2vw 4vw 0px rgba(0, 0, 0, 0.7);
         transform: scale(2.8)translateY(3px);
     }
     .content2-body-box-logo{
         border: .01vw solid black;
-        transform: ;
         font-size: 1vw;
     }
     .content2-body-box:hover{
